@@ -7,6 +7,17 @@ Keywords:
 
 # Release notes
 
+## April 7, 2026
+
+### iOS Target 5.1.0
+
+* Added timeout parameter to the prefetchContent API.
+
+### iOS Messaging 5.12.0
+
+* Added AEPMessagingNotification framework for rich push media support
+* Added support for message inbox for content cards.
+
 ## April 3, 2026
 
 ### Android BOM 3.18.0
