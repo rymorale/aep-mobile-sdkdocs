@@ -260,7 +260,7 @@ Feature toggles and interaction configuration.
 
 | JSON Key | Type | Default | Description |
 |----------|------|---------|-------------|
-| `behavior.chat.messageAlignment` | string | `"start"` | Agent message alignment (`"start"`, `"center"`, `"end"`). Note: theme JSONs using legacy `"left"` values are treated as `"start"`. |
+| `behavior.chat.messageAlignment` | string | `"start"` | Agent message alignment (`"start"`, `"center"`, `"end"`). Note: Theme JSONs using legacy `"left"` values are treated as `"start"`. |
 | `behavior.chat.messageWidth` | string | `"100%"` | Max message width (e.g., `"100%"`, `"768px"`) |
 | `behavior.chat.userMessageBubbleStyle` | string | `"default"` | User message bubble shape. `"default"` = all corners rounded; `"balloon"` = rounded except bottom-right corner is square (speech balloon style). Corner radius is controlled by `--message-border-radius` (default `12dp`). |
 
@@ -551,7 +551,7 @@ Icon and image asset configuration.
 
 | JSON Key | Type | Default | Description |
 |----------|------|---------|-------------|
-| `assets.icons.company` | string | `""` | Company icon displayed to the left of agent text message bubbles. When set, ALL agent response elements — message text, product cards, and prompt suggestion chips — are automatically aligned to the icon column (flush with the right edge of the icon). Accepts a remote URL (`http://` or `https://`) or a local asset name (without extension) resolved from the app's `assets/icons/` folder. Supported local formats: `.png`, `.webp`, `.jpg`, `.jpeg`. Leave empty to show no icon. |
+| `assets.icons.company` | string | `""` | Company icon displayed to the left of agent text message bubbles. When set, **all** agent response elements — message text, product cards, and prompt suggestion chips — are automatically aligned to the icon column (flush with the right edge of the icon). Accepts a remote URL (`http://` or `https://`) or a local asset name (without extension) resolved from the app's `assets/icons/` folder. Supported local formats: `.png`, `.webp`, `.jpg`, `.jpeg`. Leave empty to show no icon. |
 
 ### Example
 
