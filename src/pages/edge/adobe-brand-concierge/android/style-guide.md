@@ -1234,8 +1234,7 @@ This section documents which properties are fully implemented, partially impleme
 
 ### Theme Tokens - Colors
 
-**Note**: The following base colors are **not configurable via JSON themes**. They are hardcoded in `LightConciergeColors` / `DarkConciergeColors` and serve as fallback colors throughout the UI:
-- `secondary`, `onSurfaceVariant`, `outline`, `error`, `onError`
+**Note**: The following base colors are **not configurable via JSON themes**. They are hardcoded in `LightConciergeColors` / `DarkConciergeColors` and serve as fallback colors throughout the UI: `secondary`, `onSurfaceVariant`, `outline`, `error`, `onError`
 
 These colors are used internally by composables but cannot be customized in theme JSON files. See "Fallback Colors" section at the end.
 

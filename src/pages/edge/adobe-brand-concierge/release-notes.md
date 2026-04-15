@@ -11,6 +11,7 @@ keywords:
 ## April 14, 2026
 
 ### Android Brand Concierge 3.3.1
+
 * Updated link handling logic to route URIs (e.g., custom schemes, app links, intent://, mailto:, etc.) through Android system handlers to ensure correct routing of non-HTTP(S) schemes.
 
 ## April 13, 2026
